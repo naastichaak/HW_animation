@@ -5,7 +5,6 @@
 
 .square{
     margin-left: 20px;
-    margin-top: 20px;
     width: 100px;
     height: 100px;
     animation: animation1 4000ms 500ms infinite;
