@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.square{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    animation: animation1 4000ms 500ms infinite;
+}
+
+@keyframes animation1{
+    0% {
+        transform: scaleY(0.5) translate(0px, 0px);
+        background-color: red;
+    }
+
+    25%{
+        transform: scaleY(1) translate(0px, 150px);
+        background-color: blue;
+    }
+
+    50% {
+        transform: scaleY(1) translate(300px, 150px);
+        background-color: green;
+    }
+    
+    75% {
+        transform: scaleY(0.5) translate(300px, 0px);
+        background-color: yellow;
+    }
+
+    100% {
+        transform: scaleY(0.5) translate(0px, 0px);
+        background-color: red;
+    }
+}
